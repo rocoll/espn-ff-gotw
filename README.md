@@ -32,7 +32,7 @@ For private leagues, you'll need to get two cookies' values from your browser to
 
 The ESPN API returns data in compact JSON format. The `jq` utility is useful for detailed and specific parsing of elements. In this case, I just want it prettified on multiple lines to cheat with a simple `grep`. But for more advanced JSON spelunking, it'll come in handy.
 
-> [https://jqlang.github.io/jq/manual/](https://jqlang.github.io/jq/manual/)
+> [https://jqlang.github.io/jq/](https://jqlang.github.io/jq/)
 
 ## gotw.py
 
