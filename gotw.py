@@ -61,8 +61,18 @@ for t in lteams:
     # for each player on this roster
     for p in roster:
 
+        # still abbreviating Raiders as in Oakland
+        if p.proTeam == "OAK":
+
+            # ensure we match the schedule's abbrev
+            actualTeam="LV"
+
+        else:
+
+            actualTeam=p.proTeam
+
         # get the proTeam of this player
-        proTeamsList.append(p.proTeam)
+        proTeamsList.append(actualTeam)
         
 # declare dictionary to count the occurence of each proTeam
 proTeams_dict = {}
